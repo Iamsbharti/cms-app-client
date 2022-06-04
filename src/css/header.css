@@ -1,0 +1,49 @@
+.mobile__nav__div,
+.mobile_div_sidebar {
+  display: none;
+}
+.nav__bar {
+  height: 70px;
+  background-color: #0f0326;
+  border-bottom: 2px solid white;
+  box-shadow: -1px 4px 15px #c2b2b26e;
+}
+
+.nav__links {
+  display: flex;
+  list-style: none;
+  justify-content: space-between !important;
+  padding-right: 78px;
+}
+.nav__links li {
+  padding-left: 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+}
+.nav__links > li:hover {
+  transform: scale(1.1);
+}
+.nav_cart_alignment > li:hover {
+  transform: scale(1.1);
+}
+.login_header_btn {
+  background-color: #41c485 !important;
+  font-weight: 600 !important;
+  width: 120% !important;
+  color: white !important;
+}
+
+.nav_cart_alignment {
+  display: flex !important;
+}
+
+.nav_badge_alignment {
+  margin-right: 23px;
+}
+
+.nav_badge_nonlogedin {
+  margin-right: 23px;
+  margin-top: 4px;
+}

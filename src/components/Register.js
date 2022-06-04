@@ -20,7 +20,6 @@ const Register = () => {
   let [errorClassName, setClassName] = useState("");
   let [pwdValidationError, setPwdValidError] = useState("");
   let [pwdMatchError, setPwdMatchError] = useState("");
-  let [doesPwdMatch, setDoesPwdMatch] = useState();
   const handleChange = (e) => {
     const { name, value } = e.target;
     switch (name) {
@@ -71,7 +70,6 @@ const Register = () => {
         handleClearForm();
       }, 3000);
     } else {
-      setDoesPwdMatch();
       setPwdMatchError("");
       setPwdValidError("");
       toast.success("you have been signedUp");
